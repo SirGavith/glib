@@ -1,10 +1,3 @@
-declare global {
-    interface Array<T> {
-        Sum(): T;
-        Product(): T;
-        toInt(radix?: number): number;
-    }
-}
 export declare function Range(start: number, stop: number): number[];
 export declare function Convolute(l1: number[], l2: number[], truncate?: boolean): number[];
 export type RecursiveArray<T> = (T | RecursiveArray<T>)[];

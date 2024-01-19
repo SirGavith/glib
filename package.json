@@ -1,6 +1,6 @@
 {
   "name": "glib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Useful Array, String, and Object extensions, and versitile XY, XYZ, Array2D, Array3D, etc",
   "main": "dist/main.js",
   "types": "dist/main.d.ts",

@@ -1,8 +1,3 @@
-interface Set<T> {
-    toArray(): T[]
-    Copy(): Set<T>
-}
-
 Set.prototype.toArray = function toArray<T>(): T[] {
     const arr: T[] = []
     this.forEach(v => arr.push(v))

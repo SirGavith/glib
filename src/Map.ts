@@ -1,11 +1,3 @@
-interface Map<K, V> {
-    toArray(): [K, V][]
-    Copy(): Map<K, V>
-    Keys(): K[]
-    Log(): Map<K,V>
-    Values(): V[]
-}
-
 Map.prototype.toArray = function toArray<K, V>(): [K, V][] {
     const arr: [K, V][] = []
     this.forEach((v, k) => arr.push([k, v]))
